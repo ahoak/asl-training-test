@@ -26,8 +26,9 @@ const classes = [
   "X",
   "Y",
   "Z",
-  /*'nothing', */ "space",
-  "del",
+  /*'nothing', */
+  //  "space",
+  // "del",
 ];
 
 function trainTestSplit(...datas) {
