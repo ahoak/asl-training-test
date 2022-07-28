@@ -152,6 +152,7 @@ async function loadTensors() {
 export async function train(outputEle, opts = {}) {
   console.time("model")
   const inputData = await loadTensors();
+  console.log("inputData", inputData)
   const X = [];
   const Y = [];
   const numEpochs = opts.epochs ?? 15
